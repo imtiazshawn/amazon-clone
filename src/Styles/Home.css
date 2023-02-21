@@ -19,3 +19,17 @@
     margin-left: 5px;
     margin-right: 5px;
 }
+
+
+/* MEDIA QUERY */
+@media screen and (max-width: 940px) {
+    .home {
+        margin-top: -10px;
+    }
+    .home__row {
+        flex-direction: column;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 60px;
+    }
+}

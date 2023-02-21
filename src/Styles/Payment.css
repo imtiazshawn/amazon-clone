@@ -27,3 +27,19 @@
 .payment__adress, .payment__items, .payment__details{
     flex: 0.8;
 }
+
+
+@media screen and (max-width: 940px) {
+    .payment__section {
+        padding: 20px;
+        margin: 0 0;
+        flex-direction: column;
+    }
+    .payment__priceContainer {
+        padding: 5px;
+    }
+    .payment__details > form {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

@@ -48,7 +48,7 @@ const Header = () => {
           </span>
         </div>
       </Link>
-        <div className="header__option">
+        <div className="header__option none">
           <span className='header_optionLineOne'>
             Returns
           </span>
@@ -56,7 +56,7 @@ const Header = () => {
             & Orders
           </span>
         </div>
-        <div className="header__option">
+        <div className="header__option none">
           <span className='header_optionLineOne'>
             Your 
           </span>

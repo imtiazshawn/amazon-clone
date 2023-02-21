@@ -44,3 +44,23 @@
 .starIcon {
     color: #ffa41c;
 }
+
+
+/* MEDIA QUERY */
+@media screen and (max-width: 940px) {
+    .product {
+        width: 85%;
+        margin: 10px;
+        padding: 15px;
+    }
+    .product > img {
+        max-height: 150px;
+        margin-bottom: 10px;
+    }
+    .product__info > p {
+        font-size: 10px;
+    }
+    .product > button {
+        margin: 8px;
+    }
+}

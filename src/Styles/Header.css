@@ -51,7 +51,7 @@
 .header_optionLineOne {
     font-size: 10px;
 }
-.header_optionLineTow {
+.header_optionLineTwo {
     font-size: 13px;
     font-weight: 800;
 }
@@ -65,4 +65,28 @@
 .header__basketCount {
     margin-left: 10px;
     margin-right: 10px;
+}
+
+
+
+/* MEDIA QUERY */
+@media screen and (max-width: 940px) {
+    .header {
+        height: 60px;
+    }
+    .header__logo {
+        width: 60px;
+        margin-top: 23px;
+        margin-left: 10px;
+    }
+    .header__searchInput {
+        height: 8px;
+    }
+    .header_searchIcon {
+        padding: 5px;
+        height: 19px !important;
+    }
+    .none {
+        display: none;
+    }
 }
